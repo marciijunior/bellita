@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --branco-principal: #ffffff;
+    --preto-principal: #000000;
+    --rosa-principal: #fdcce0;
+    --marrom-clarinho: #f7ac7aa9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--branco-principal);
+    color: var(--preto-principal);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho_max {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--marrom-clarinho);
+}
+
+.cabecalho_marca {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--branco-principal);
+    padding: 0.2% 0 0 2%;
+}
+
+.faixa {
+    flex: 1;
+    text-align: center;
+    max-width: 30px;
+    max-height: auto;
+    padding: 3% 180px 0 0;
+    cursor: pointer;
+}
+
+.logo {
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    max-width: 200px;
+    max-height: auto;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+.vida {
+    flex: 1;
+    text-align: center;
+    max-width: 250px;
+    max-height: auto;
+    padding: 0 0 0 0;
+    cursor: pointer;
+}
+
+.barra_de_busca_linha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffffa9;
+    padding: 0 30px;
+}
+
+.barra_de_busca {
+    background-color: var(--marrom-clarinho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 600px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.barra_de_busca input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #00000000;
+}
+
+.lupa {
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.carrinho {
+    display: flex;
+    max-width: 20px;
+    max-height: 20px;
+    margin-left: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.apresentacao_campanha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.apresentacao_lancamentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0 2% 0;
+    font-size: 2rem;
+}
+
+.apresentacao_produto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 0 0 0;
+    margin: 0 10% 0 10%;
+    font-size: 2rem;
+    gap: 1%;
+}
+
+.apresentacao_produto_imagens1 {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens2 {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens3 {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens4 {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.apresentacao_produto_imagens2:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.apresentacao_produto_imagens3:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.apresentacao_produto_imagens4:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.apresentacao_mais_vendidos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2% 0 2% 0;
+    font-size: 2rem;
+}
+
+.apresentacao_produto_mais_vendidos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    padding: 0 0 10% 0;
+    margin: 0 10% 0 10%;
+    font-size: 2rem;
+    gap: 1%;
+}
+
+.apresentacao_produto_imagens1hover {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens2hover {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens3hover {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens4hover {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--marrom-clarinho);
+}
+
+.apresentacao_produto_imagens1hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.apresentacao_produto_imagens2hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.apresentacao_produto_imagens3hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.apresentacao_produto_imagens4hover:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.90rem;
+    background-color: var(--marrom-clarinho);
+    padding: 5px 0 5px 0;
+    
+}
